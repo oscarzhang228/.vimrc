@@ -33,9 +33,13 @@ call plug#begin()
 
 " List your plugins here
 Plug 'github/copilot.vim'
-
+Plug 'prettier/vim-prettier'
+Plug 'tell-k/vim-autopep8'
 
 call plug#end()
 
-" make paste formatting normal
-set paste
+" Disable show diff window
+let g:autopep8_disable_show_diff=1
+
+" Enable autopep8 on save
+utopep8_on_save = 1
