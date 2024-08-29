@@ -36,3 +36,6 @@ Plug 'github/copilot.vim'
 
 
 call plug#end()
+
+" make paste formatting normal
+set paste
